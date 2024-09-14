@@ -1,5 +1,6 @@
 # WiProIII-2-HA
 Thitronik WiProIII alarm system control via Home Assistant
+Original: https://github.com/mc0110/wiproIII2ha
 
 ## Introduction
 The solution I present describes the integration of a Thitronik WiProIII alarm system into an existing HomeAssistant instance. The solution does not galvanically interfere with the Thitronik electronics. Only a hand-held transmitter and one of the alarm sensors are manipulated. The status of the central locking system is detected via the signal of the body door (FIAT) and the alarm via a horn contact. Integration in Home Assistant is done by means of an ESP32 via an ESPHome implementation.
